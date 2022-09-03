@@ -28,7 +28,15 @@
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+  
   <!-- Template Main CSS File -->
+
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -86,13 +94,13 @@
       <div id="fh5co-about" class="animate-box">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" data-aos="fade-up">
               <h2>About Me</h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row g-5">
             <div class="col-md-4">
-              <ul class="info">
+              <ul class="info" data-aos="fade-up">
                 <li><span class="first-block">Full Name:</span><span class="second-block">Md. Al Mahmud Imran</span></li>
                 <li><span class="first-block">Phone:</span><span class="second-block">+8801759535502</span></li>
                 <li><span class="first-block">Email:</span><span class="second-block">md.almahmudimran@gmail.com</span></li>
@@ -100,10 +108,20 @@
                 <li><span class="first-block">Address:</span><span class="second-block">Mirpur 1, Dhaka, Bangladesh</span></li>
               </ul>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-up">
               <h2>Hello There!</h2>
-              <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
-              <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
+              <div class="about_myself">
+                <p>
+                  I'm a passionate software developer. I have a strong passion for web development and I love to create things that make people's lives easier. I'm a self-taught programmer and I'm always looking for new ways to improve my skills.
+                </p>
+                <p>
+                  I have 1+ years of experience in web development and I'm always looking for new ways to improve my skills. I worked with JavaScript, HTML, CSS, Bootstrap, Angular, Typescript, NodeJs, and MongoDB.
+                </p>
+                <p>
+                  I also worked with Java, Springboot, MySQL, Postgresql.
+                </p>
+              </div>
+              
               
             </div>
           </div>
@@ -163,10 +181,48 @@
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        <!-- <div class="section-title">
           <h2>Skills</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div> -->
+
+        <div class="skills_details">
+          <h2>Skills</h2>
+          <p>
+            I have 1+ years of experience in web development and I'm always looking for new ways to improve my skills. I worked with JavaScript, HTML, CSS, Bootstrap, Angular, Typescript, NodeJs, and MongoDB.
+          </p>
+          <p>
+            I also worked with Java, Springboot, MySQL, Postgresql.
+          </p>
         </div>
+        <div class="row row-pb-md" id="fh5co-skills">
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart js-scroll" data-percent="90"><span><strong>JavaScript</strong>90%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="85"><span><strong>Typescript</strong>85%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="75"><span><strong>SCSS</strong>75%</span></div>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="85"><span><strong>Angular</strong>85%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="85"><span><strong>Node Js</strong>85%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="80"><span><strong>MongoDB</strong>80%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="70"><span><strong>Java Springboot</strong>70%</span></div>
+          </div>
+        </div>
+
 
         <div class="row skills-content">
 
@@ -175,66 +231,145 @@
             <div class="progress">
               <span class="skill">HTML <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
               <span class="skill">CSS <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <span class="skill">SCSS <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-7 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <br>
+            
+            <div class="progress">
+              <span class="skill">MongoDB <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-8 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">Java <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-11 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">C <i class="val">89%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-14 progress-bar-striped active" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
           </div>
 
+
+
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
+              <span class="skill">Typescript <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">Angular <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">Node Js <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-6 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
+            <div class="progress">
+              <span class="skill">Express Js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-9 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">MySQL <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-10 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">Springboot <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-12 progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Python <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-13 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
 
           </div>
 
         </div>
 
+
+        <!-- sub-test start -->
+        
+        <!-- sub-test end -->
+
+
+
+
       </div>
     </section><!-- End Skills Section -->
+
+
+
+
+
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            I'm a passionate software developer. I have a strong passion for web development and I love to create things that make people's lives easier. I'm a self-taught programmer and I'm always looking for new ways to improve my skills.
+          </p>
+          <p>
+            I have 1+ years of experience in web development and I'm always looking for new ways to improve my skills. I worked with JavaScript, HTML, CSS, Bootstrap, Angular, Typescript, NodeJs, and MongoDB.
+          </p>
+          <p>
+            I also worked with Java, Springboot, MySQL, Postgresql.
+          </p>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
@@ -286,10 +421,113 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
 
+
+        <div class="row">
+          <div class="col-md-12 col-md-offset-0">
+            <ul class="timeline">
+              <li class="timeline-heading text-center animate-box" data-aos="fade-up">
+                <div><h3>Work Experience</h3></div>
+              </li>
+              <li class="animate-box timeline-unverted" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">Software Engineer</h3>
+                    <span class="company">IGL Group - August, 2022 - Current</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I'm a software engineer at IGL Group. I'm working on a project called "FelnaTech". FelnaTech is an e-commerce web application that helps people to Buy products online. FelnaTech is built with Angular, Typescript, SCSS, NodeJs, and MongoDB.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted animate-box" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">Junior Software Engineer</h3>
+                    <span class="company">Softlab It - May, 2022 - July, 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I was a junior software engineer at Softlab It. I was working on many type of project like e-commerce, pos, erp, portfolio etc. These projects are built with Angular, Typescript, SCSS, NodeJs, and MongoDB.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="animate-box timeline-unverted" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">Intern Software Engineer</h3>
+                    <span class="company">Softlab It - January, 2022 - April, 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I was an intern software engineer at Softlab It. I was learning mean stack and working on many type of project like e-commerce, pos, erp, portfolio etc. These projects are built with Angular, Typescript, SCSS, NodeJs, and MongoDB.
+                    </p>
+                  </div>
+                </div>
+              </li>
+  
+              <br>
+              <li class="timeline-heading text-center animate-box" data-aos="fade-up">
+                <div><h3>Education</h3></div>
+              </li>
+              <li class="timeline-inverted animate-box" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">Bachelors Degree</h3>
+                    <span class="company">Daffodil International University - 20017 - 2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I completed my Bachelors Degree in Computer Science and Engineering from Daffodil International University. I got CGPA 3.44 out of 4.00.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="animate-box timeline-unverted" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">H.Sc</h3>
+                    <span class="company">Barguna Govt. College - 2013 - 2016</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I completed my HSC from Barguna Govt. College. I got GPA 3.92 out of 5.00.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted animate-box" data-aos="fade-up">
+                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">S.Sc</h3>
+                    <span class="company">Barguna Zilla School - 2011 - 2012</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      I completed my SSC from Barguna Zilla School. I got GPA 4.44 out of 5.00.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              
+              </ul>
+          </div>
+        </div>
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+    <!-- End Resume Section -->
+    
+
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -297,7 +535,9 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Here are some of my projects. I have worked on many projects. I have worked on many type of projects like e-commerce, pos, erp, portfolio etc. These projects are built with Angular, Typescript, SCSS, NodeJs, and MongoDB.
+          </p>
         </div>
 
         <div class="row">
@@ -305,7 +545,7 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-card">E-commerce</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
@@ -315,12 +555,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/AngularUi .png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/AngularUi1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -329,7 +569,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Demosite .png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -343,7 +583,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Demosite1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
@@ -357,10 +597,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Demosite2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
-                <p>Card</p>
+                <p>E-commerce</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -371,7 +611,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/AngularUi .png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
@@ -385,7 +625,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/AngularUi1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
@@ -399,10 +639,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/TodoApp.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
-                <p>Card</p>
+                <p>E-commerce</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -413,10 +653,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Esquire-Electronics-Ltd.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
-                <p>Card</p>
+                <p>E-commerce</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -427,7 +667,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Demosite1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -450,7 +690,9 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            I am a full stack developer with 1+ years of experience in web development. I have worked on various projects using different technologies. I have worked on projects using Angular, React, Node, Express, MongoDB, MySQL, Bootstrap, Material UI, HTML, CSS, JavaScript, JSON, REST API, Git, Github, Bitbucket, Jira, Trello, etc. I have also worked on projects using different payment gateways like Stripe, Paypal, Razorpay, etc. I have also worked on projects using different SMS gateways like Twilio, Nexmo, etc. I have also worked on projects using different email gateways like Sendgrid, Mailgun, etc. I have also worked on projects using different cloud services like AWS, Digital Ocean, etc. I have also worked on projects using different social media APIs like Facebook, Twitter, Instagram, etc. I have also worked on projects using different chat APIs like Twilio, etc. I have also worked on projects using different video streaming APIs like Twilio, etc. I have also worked on projects using different map APIs like Google Maps, etc.
+          </p>
         </div>
 
         <div class="row">
@@ -463,8 +705,10 @@
                 </svg>
                 <i class="bx bxl-dribbble"></i>
               </div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Business Portfolio</a></h4>
+              <p>
+                I have worked on some business portfolio which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -476,8 +720,10 @@
                 </svg>
                 <i class="bx bx-file"></i>
               </div>
-              <h4><a href="">Sed Perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Personal Portfolio</a></h4>
+              <p>
+                I have worked on some personal portfolio which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -489,8 +735,10 @@
                 </svg>
                 <i class="bx bx-tachometer"></i>
               </div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">E-Commerce</a></h4>
+              <p>
+                I have worked on some E-Commerce web application which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -502,8 +750,10 @@
                 </svg>
                 <i class="bx bx-layer"></i>
               </div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">POS Software</a></h4>
+              <p>
+                I have worked on some POS software which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -515,8 +765,10 @@
                 </svg>
                 <i class="bx bx-slideshow"></i>
               </div>
-              <h4><a href="">Dele Cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">ERP Software</a></h4>
+              <p>
+                I have worked on some ERP software which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -528,8 +780,10 @@
                 </svg>
                 <i class="bx bx-arch"></i>
               </div>
-              <h4><a href="">Divera Don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">Mobile App</a></h4>
+              <p>
+                I have worked on some Mobile App which are fully dinamic.
+              </p>
             </div>
           </div>
 
@@ -636,19 +890,20 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Mirpur 1, Dhaka, Bangladesh</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <!-- <p>md.almahmudimran@gmail.com</p> -->
+                <p><a href="mailto:md.almahmudimran@gmail.com" style="color: #728394;" onMouseOver="this.style.color='#FF9000'">md.almahmudimran@gmail.com</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p><a href="tel:+8801759535502"  style="color: #728394;" onMouseOver="this.style.color='#FF9000'">+8801759535502</a></p>
               </div>
 
             </div>
@@ -692,8 +947,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Brandon Johnson</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>Md. Al Mahmud Imran</h3>
+      <p>A pationate software engineer</p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -702,14 +957,14 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Md. Al Mahmud Imran</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: [license-url] -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Imran</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -727,6 +982,26 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+
+  <script src="assets/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="assets/js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="assets/js/google_map.js"></script>
+
+
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
